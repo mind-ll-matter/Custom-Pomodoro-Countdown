@@ -1,11 +1,11 @@
 .container {
-  background-color: #355068;
+  background-color: #00FFFFFF;
   display:flex;
   justify-content: center;
   align-items: center;
   height:75px;
   width:360px;
-  border:8px solid #d5d5ce;
+  border:8px solid #00FFFFFF;
 }
 
 #tomato {
@@ -13,6 +13,8 @@
   position: relative;
   bottom: 5px;
   background:transparent;
+
+  display:none;
 }
 
 #countdown {
@@ -26,7 +28,7 @@
 }
 
 button {
-  background-color: #355068;
+  background-color: #00FFFFFF;
   border: 0;
   padding-left: 0px;
   padding-right: 0px;
