@@ -95,13 +95,20 @@ function resetCountdown() {
 
 // View Updates
 function updatePlayPauseButton() {
-  let playPauseImageSrc;
+  // let playPauseImageSrc;
   if (isPaused) {
-    playPauseImageSrc = "playButton4x.png";
+    // playPauseImageSrc = "playButton4x.png";
+    document.getElementsByClassName("playPause")[0].classList.remove("paused")
   } else {
-    playPauseImageSrc = "pauseButton4x.png";
+    // playPauseImageSrc = "pauseButton4x.png";
+    document.getElementsByClassName("playPause")[0].classList.add("paused")
+
   }
-  document.getElementById("playPause").src = playPauseImageSrc;
+  // document.getElementById("playPause").src = playPauseImageSrc;
+
+
+  // document.getElementsByClassName("playPause").toggleClass("paused")
+
 }
 
 function updateTimeString() {
